@@ -1,0 +1,14 @@
+NASCO CLOUD BUILD
+
+1. Create a GitHub repository named NASCO-App.
+2. Upload the contents of this folder.
+3. Confirm .github/workflows/build-apk.yml is present.
+4. Open Actions.
+5. Select Build NASCO APK.
+6. Tap Run workflow.
+7. Wait for the build to finish.
+8. Open the completed run.
+9. Under Artifacts, download NASCO-debug-apk.
+10. Extract it and install app-debug.apk on your Android phone.
+
+This produces a test/debug APK. A Play Store release requires release signing and an AAB.
